@@ -159,7 +159,7 @@ export const volleyballPlayers = [
     role: 'Defender',
     description:
       'Haji Muhammad Khan Awan is proudly known as the King of Volleyball. He is an experienced and talented volleyball player who has represented Pakistan at the international level.',
-    image: 'src/assets/images/vollyball1.png',
+    image: '/src/assets/images/vollyball1.png',
   },
 
   {
@@ -168,7 +168,7 @@ export const volleyballPlayers = [
     role: 'Volleyball Player',
     description:
       'Muhammad Akram Awan is a talented volleyball player from Nawan. He plays alongside Haji Muhammad Khan Awan and represents Nawan in volleyball competitions.',
-    image: 'src/assets/images/vollybal2player.jpeg',
+    image: '/src/assets/images/vollybal2player.jpeg',
   },
 ]
 
@@ -199,7 +199,7 @@ export const grounds = [
     description:
       'Baloch Volleyball Ground is a traditional and historic volleyball ground of Nawan. The ground was developed with the efforts of Ilyas Baloch Sahib, Haji Muhammad Khan Awan Sahib, known as the King of Volleyball, and other Awan and Baloch community members. It has been an important place for volleyball in the area for many years. The ground is now planned to be developed into a proper volleyball stadium in the coming months, providing a better facility for players and spectators.',
     location: 'Nawan',
-    image: 'src/assets/images/vollyball-ground.png',
+    image: '/src/assets/images/vollyball-ground.png',
   },
 
   {
@@ -301,7 +301,7 @@ export const heroes = [
       'Supports sports and local players',
       'Respected as a cricket legend of Nawan',
     ],
-    image: 'src/assets/images/malik faisal .png',
+    image: '/src/assets/images/malik faisal .png',
   },
 
   {
@@ -317,7 +317,7 @@ export const heroes = [
       'Currently lives and works in Jawabad',
       'Known for his professional service and dedication',
     ],
-    image: 'src/assets/images/malik-akmal.png',
+    image: '/src/assets/images/malik-akmal.png',
   },
 
   {
@@ -333,7 +333,7 @@ export const heroes = [
       'Represented Pakistan',
       'A source of pride and inspiration for young players of Nawan',
     ],
-    image: 'src/assets/images/vollyball1.png',
+    image: '/src/assets/images/vollyball1.png',
   },
 
   {
@@ -350,7 +350,7 @@ export const heroes = [
       'DevOps and Cloud Engineer working in Islamabad',
       'Aspires to pursue international professional opportunities',
     ],
-    image: 'src/assets/images/hero6.png',
+    image: '/src/assets/images/hero6.png',
   },
 
   {
@@ -366,7 +366,7 @@ export const heroes = [
       'Hardworking and academically ambitious',
       'Represents the educational achievements of Nawan',
     ],
-    image: 'src/assets/images/Pasted image (2).png',
+    image: '/src/assets/images/Pasted image (2).png',
   },
 
   {
@@ -382,7 +382,7 @@ export const heroes = [
       'Leader in the field of higher education',
       'Represents Nawan in the academic community',
     ],
-    image: 'src/assets/images/Malik-Amjad.png',
+    image: '/src/assets/images/Malik-Amjad.png',
   },
     {
     id: 'hero-10',
@@ -396,7 +396,7 @@ export const heroes = [
       'Remembered as a close friend of Imran Khan',
       'An important personality in the local history of Nawan',
     ],
-    image: 'src/assets/images/image.png',
+    image: '/src/assets/images/image.png',
   },
 ]
 export const touristPlaces = [
@@ -408,7 +408,7 @@ export const touristPlaces = [
     whyVisit:
       'A beautiful place to see deer, horses, parrots, and different birds while enjoying the peaceful environment of Jaba Farmhouse.',
     location: 'Jaba Farmhouse',
-    image: 'src/assets/images/jabaform-house.png',
+    image: '/src/assets/images/jabaform-house.png',
   },
 
   {
@@ -419,7 +419,7 @@ export const touristPlaces = [
     whyVisit:
       'A welcoming place where people come together to enjoy food, conversations, celebrations, and community gatherings.',
     location: 'Jaba Farmhouse',
-    image: 'src/assets/images/jaba-form.png',
+    image: '/src/assets/images/jaba-form.png',
   },
 
   {
@@ -430,7 +430,7 @@ export const touristPlaces = [
     whyVisit:
       'A unique night gathering place where friends and community members come together for conversations, discussions, and memorable evenings.',
     location: 'Jaba Farmhouse',
-    image: 'src/assets/images/marka11.png',
+    image: '/src/assets/images/marka11.png',
   },
 
   {
@@ -441,6 +441,6 @@ export const touristPlaces = [
     whyVisit:
       'A beautiful natural destination where visitors can enjoy flowing water, mountain scenery, fresh air, and the peaceful beauty of nature.',
     location: 'Near Nawan',
-    image: 'src/assets/images/majoch.png',
+    image: '/src/assets/images/majoch.png',
   },
 ]

@@ -2,12 +2,12 @@ import PageHero from '../components/PageHero.jsx'
 import GroundCard from '../components/GroundCard.jsx'
 import { grounds } from '../data/siteData.js'
 
-const GROUNDS_HERO_IMAGE = '/src/assets/images/beuti2.png'
+import ground_image from   '../assets/images/beuti2.png'
 
 function Grounds() {
   return (
     <>
-      <PageHero eyebrow="Where Nawan Plays" title="Grounds" image={GROUNDS_HERO_IMAGE} />
+      <PageHero eyebrow="Where Nawan Plays" title="Grounds" image={ground_image} />
 
       <section className="section">
         <div className="container">

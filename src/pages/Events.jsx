@@ -2,12 +2,12 @@ import PageHero from '../components/PageHero.jsx'
 import EventCard from '../components/EventCard.jsx'
 import { events } from '../data/siteData.js'
 
-const EVENTS_HERO_IMAGE = 'src/assets/images/volly-ball-tournament.png'
+import event_image from '../assets/images/volly-ball-tournament.png'
 
 function Events() {
   return (
     <>
-      <PageHero eyebrow="What's On" title="Important Events" image={EVENTS_HERO_IMAGE} />
+      <PageHero eyebrow="What's On" title="Important Events" image={event_image} />
 
       <section className="section">
         <div className="container">

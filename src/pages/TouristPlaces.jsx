@@ -2,12 +2,12 @@ import PageHero from '../components/PageHero.jsx'
 import TouristCard from '../components/TouristCard.jsx'
 import { touristPlaces } from '../data/siteData.js'
 
-const TOURIST_HERO_IMAGE = 'src/assets/images/beuti2.png'
+import tourist_image from  '../assets/images/beuti2.png'
 
 function TouristPlaces() {
   return (
     <>
-      <PageHero eyebrow="Worth The Trip" title="Tourist Places of Nawan" image={TOURIST_HERO_IMAGE} />
+      <PageHero eyebrow="Worth The Trip" title="Tourist Places of Nawan" image={tourist_image} />
 
       <section className="section">
         <div className="container">

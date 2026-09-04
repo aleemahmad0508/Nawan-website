@@ -2,12 +2,12 @@ import PageHero from '../components/PageHero.jsx'
 import { historySections } from '../data/siteData.js'
 
 // Replace this file to change the History page photo.
-const HISTORY_IMAGE = 'src/assets/images/beauti1.png'
+import history_image from  '../assets/images/beauti1.png'
 
 function History() {
   return (
     <>
-      <PageHero eyebrow="The Story So Far" title="History of Nawan" image={HISTORY_IMAGE} />
+      <PageHero eyebrow="The Story So Far" title="History of Nawan" image={history_image} />
 
       <section className="section">
         <div className="container">

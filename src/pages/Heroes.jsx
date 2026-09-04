@@ -2,12 +2,12 @@ import PageHero from '../components/PageHero.jsx'
 import HeroCard from '../components/HeroCard.jsx'
 import { heroes } from '../data/siteData.js'
 
-const HEROES_HERO_IMAGE = 'src/assets/images/beuti2.png'
+import hero_image from  '../assets/images/beuti2.png'
 
 function Heroes() {
   return (
     <>
-      <PageHero eyebrow="Remembered With Respect" title="Heroes of Nawan" image={HEROES_HERO_IMAGE} />
+      <PageHero eyebrow="Remembered With Respect" title="Heroes of Nawan" image={hero_image} />
 
       <section className="section">
         <div className="container">

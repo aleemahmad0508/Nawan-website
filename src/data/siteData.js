@@ -7,11 +7,63 @@
  * is just an array of plain objects here. Add, remove, or
  * edit an object and the matching page updates automatically.
  *
- * To change an IMAGE: replace the file inside
- * src/assets/images/ that has the same name, or change the
- * "image" path below to point at a new file.
+ * Images are imported from src/assets/images/ so that Vite
+ * correctly handles them in both development and production.
  * ============================================================
  */
+
+// ============================================================
+// IMAGE IMPORTS
+// ============================================================
+
+// Projects
+import projectWater from '../assets/images/project2 (1).png'
+import projectTrees from '../assets/images/project11-plant_cropped.png'
+import projectAluwali from '../assets/images/project2aluwali rod_cropped.png'
+import projectDhokZaman from '../assets/images/docke-zaman rode_cropped.png'
+
+// Events
+import volleyballGroundEvent from '../assets/images/Volly ball  ground.png'
+import nslEvent from '../assets/images/NSl.png'
+import mehfilMilad from '../assets/images/mehfil milad.png'
+
+// Volleyball Players
+import volleyball1 from '../assets/images/vollyball1.png'
+import volleyball2 from '../assets/images/vollybal2player.jpeg'
+
+// Cricket Players
+import aleemKhan from '../assets/images/Aleemkhan.png'
+import khurrum from '../assets/images/khurrum.jpeg'
+
+// Grounds
+import volleyballGround from '../assets/images/vollyball-ground.png'
+import cricketTournament from '../assets/images/criket tournament.png'
+
+// Markas
+import marka1 from '../assets/images/marka1.png'
+import marks2 from '../assets/images/marks2.png'
+import marka11 from '../assets/images/marka11.png'
+
+// Heroes
+import hero2 from '../assets/images/hero2.png'
+import hero1 from '../assets/images/hero1.png'
+import hero4 from '../assets/images/hero4.png'
+import malikFaisal from '../assets/images/malik faisal .png'
+import malikAkmal from '../assets/images/malik-akmal.png'
+import hero6 from '../assets/images/hero6.png'
+import pastedImage2 from '../assets/images/Pasted image (2).png'
+import malikAmjad from '../assets/images/Malik-Amjad.png'
+import babaSadiq from '../assets/images/image.png'
+
+// Tourist Places
+import jabaFarmHouse from '../assets/images/jabaform-house.png'
+import jabaForm from '../assets/images/jaba-form.png'
+import majoch from '../assets/images/majoch.png'
+
+
+// ============================================================
+// EXPLORE LINKS
+// ============================================================
 
 export const exploreLinks = [
   {
@@ -46,7 +98,7 @@ export const exploreLinks = [
   },
   {
     title: 'Heroes',
-    description: 'People who shaped Nawan\u2019s story.',
+    description: 'People who shaped Nawan’s story.',
     to: '/heroes',
   },
   {
@@ -56,10 +108,23 @@ export const exploreLinks = [
   },
 ]
 
-export const socialLinks = [
-  { name: 'Facebook', url: 'https://facebook.com/', handle: '@Apna Nawan' },
 
+// ============================================================
+// SOCIAL LINKS
+// ============================================================
+
+export const socialLinks = [
+  {
+    name: 'Facebook',
+    url: 'https://facebook.com/',
+    handle: '@Apna Nawan',
+  },
 ]
+
+
+// ============================================================
+// HISTORY
+// ============================================================
 
 export const historySections = [
   {
@@ -82,6 +147,12 @@ export const historySections = [
     body: `Today, Nawan continues to grow while preserving the history and traditions of its people. The town is known for its cricket and volleyball culture, talented players, sports grounds, community events, and local markas. Nawan is also proud of its sporting talent, including Haji Muhammad Khan Awan, an international-level volleyball player who represented Pakistan. Nawan continues to build a story of courage, unity, sports, and progress.`,
   },
 ]
+
+
+// ============================================================
+// PROJECTS
+// ============================================================
+
 export const projects = [
   {
     id: 'project-1',
@@ -90,7 +161,7 @@ export const projects = [
       'A community-led project that brought clean water to homes across Nawan. The people of the village contributed funds and supported one another to make the water supply possible. Dr. Irfan, Dr. Aamir, Dr. Akmal Awan, and other community members played important roles in communicating with different communities, collecting funds, and helping complete the project. Today, the people of Nawan benefit from a better and more reliable supply of drinking water.',
     status: 'Completed',
     date: '2026',
-    image: 'src/assets/images/project2 (1).png',
+    image: projectWater,
   },
 
   {
@@ -100,7 +171,7 @@ export const projects = [
       'A community initiative to plant trees throughout Nawan and make the town greener, healthier, and more beautiful. The project was led by a doctor from the community, with many other people also contributing their time and support. Together, the people of Nawan worked to create a greener environment for the present and future generations.',
     status: 'Completed',
     date: '2026',
-    image: '/src/assets/images/project11-plant_cropped.png',
+    image: projectTrees,
   },
 
   {
@@ -110,7 +181,7 @@ export const projects = [
       'The Aluwali Road Project is a community-supported development project that is currently in progress. Local people are contributing funds to help construct the road, which connects Aluwali with Masan and makes travel and connectivity easier for the surrounding communities. The improved road will also provide better access toward major routes and cities, including Islamabad.',
     status: 'In progress',
     date: '2026',
-    image: '/src/assets/images/project2aluwali rod_cropped.png',
+    image: projectAluwali,
   },
 
   {
@@ -120,9 +191,14 @@ export const projects = [
       'The Dhok Zaman Road Project is a government-supported development project that is improving the connection between Nawan and Chikrala. The new road provides an easier and more convenient route for the people of Nawan and surrounding areas, helping improve transportation and connectivity.',
     status: 'In progress',
     date: '2026',
-    image: 'src/assets/images/docke-zaman rode_cropped.png',
+    image: projectDhokZaman,
   },
 ]
+
+
+// ============================================================
+// EVENTS
+// ============================================================
 
 export const events = [
   {
@@ -131,7 +207,7 @@ export const events = [
     description:
       'The Nawan Annual Volleyball Tournament is one of the major sporting events of the village. The tournament is played at the Baloch Volleyball Ground and Malik Saleem Factory Ground, bringing together talented volleyball players and attracting sports lovers from Nawan and surrounding areas.',
     date: 'Annual',
-    image: 'src/assets/images/Volly ball  ground.png',
+    image: volleyballGroundEvent,
   },
 
   {
@@ -140,7 +216,7 @@ export const events = [
     description:
       'The Nawan Super League (NSL) is one of the biggest cricket events of the year in Nawan. It brings together cricket teams and talented players from Nawan and surrounding areas, creating an exciting sporting atmosphere for the whole community.',
     date: 'Eid-ul-Fitr',
-    image: 'src/assets/images/NSl.png',
+    image: nslEvent,
   },
 
   {
@@ -149,9 +225,15 @@ export const events = [
     description:
       'The Annual Mehfil-e-Milad is an important religious and community gathering in Nawan. It is held every year during Rabi-ul-Awwal, bringing people together to participate in the gathering and celebrate with the community.',
     date: 'Rabi-ul-Awwal',
-    image: 'src/assets/images/mehfil milad.png',
+    image: mehfilMilad,
   },
 ]
+
+
+// ============================================================
+// VOLLEYBALL PLAYERS
+// ============================================================
+
 export const volleyballPlayers = [
   {
     id: 'volleyball-player-1',
@@ -159,7 +241,7 @@ export const volleyballPlayers = [
     role: 'Defender',
     description:
       'Haji Muhammad Khan Awan is proudly known as the King of Volleyball. He is an experienced and talented volleyball player who has represented Pakistan at the international level.',
-    image: '/src/assets/images/vollyball1.png',
+    image: volleyball1,
   },
 
   {
@@ -168,10 +250,14 @@ export const volleyballPlayers = [
     role: 'Volleyball Player',
     description:
       'Muhammad Akram Awan is a talented volleyball player from Nawan. He plays alongside Haji Muhammad Khan Awan and represents Nawan in volleyball competitions.',
-    image: '/src/assets/images/vollybal2player.jpeg',
+    image: volleyball2,
   },
 ]
 
+
+// ============================================================
+// CRICKET PLAYERS
+// ============================================================
 
 export const cricketPlayers = [
   {
@@ -180,7 +266,7 @@ export const cricketPlayers = [
     role: 'All-rounder',
     description:
       'Aleem Khan is a young and talented cricketer from Nawan. He is currently studying at Namal University, Mianwali, while also continuing his cricket career. He represents Namal in cricket and plays as an all-rounder.',
-    image: '/src/assets/images/Aleemkhan.png',
+    image: aleemKhan,
   },
 
   {
@@ -189,9 +275,15 @@ export const cricketPlayers = [
     role: 'All-rounder',
     description:
       'Khurram Ansari is a talented cricketer and all-rounder who represents Namal in cricket. He plays alongside Aleem Khan and is an important part of the team.',
-    image: 'src/assets/images/khurrum.jpeg',
+    image: khurrum,
   },
 ]
+
+
+// ============================================================
+// GROUNDS
+// ============================================================
+
 export const grounds = [
   {
     id: 'volleyball-ground',
@@ -199,7 +291,7 @@ export const grounds = [
     description:
       'Baloch Volleyball Ground is a traditional and historic volleyball ground of Nawan. The ground was developed with the efforts of Ilyas Baloch Sahib, Haji Muhammad Khan Awan Sahib, known as the King of Volleyball, and other Awan and Baloch community members. It has been an important place for volleyball in the area for many years. The ground is now planned to be developed into a proper volleyball stadium in the coming months, providing a better facility for players and spectators.',
     location: 'Nawan',
-    image: '/src/assets/images/vollyball-ground.png',
+    image: volleyballGround,
   },
 
   {
@@ -208,9 +300,14 @@ export const grounds = [
     description:
       'Naruwala Cricket Ground is owned by Malik Akmal Awan of Naruwala and is an important cricket ground for Nawan and the surrounding areas. The ground hosts cricket matches and tournaments and has also been a venue for NSL-related cricket activities, making it a notable sporting ground for the local community.',
     location: 'Naruwala',
-    image: 'src/assets/images/criket tournament.png',
+    image: cricketTournament,
   },
 ]
+
+
+// ============================================================
+// MARKAS
+// ============================================================
 
 export const markas = [
   {
@@ -219,7 +316,7 @@ export const markas = [
     description:
       'A peaceful night gathering place at Jaba Farmhouse where friends and community members sit together, talk, share stories, and enjoy their time together.',
     location: 'Jaba Farmhouse',
-    image: 'src/assets/images/marka1.png',
+    image: marka1,
   },
 
   {
@@ -228,7 +325,7 @@ export const markas = [
     description:
       'People gather here at night to discuss village matters, community issues, current events, and different topics while enjoying each other’s company.',
     location: 'Jaba Farmhouse',
-    image: 'src/assets/images/marks2.png',
+    image: marks2,
   },
 
   {
@@ -237,9 +334,15 @@ export const markas = [
     description:
       'The night gatherings become even more enjoyable when friends prepare different foods, eat together, laugh, and spend quality time with one another.',
     location: 'Jaba Farmhouse',
-    image: 'src/assets/images/marka11.png',
+    image: marka11,
   },
 ]
+
+
+// ============================================================
+// HEROES
+// ============================================================
+
 export const heroes = [
   {
     id: 'hero-1',
@@ -253,7 +356,7 @@ export const heroes = [
       'Supports different development projects in the village',
       'Works with different communities to help arrange funds and support',
     ],
-    image: '/src/assets/images/hero2.png',
+    image: hero2,
   },
 
   {
@@ -269,7 +372,7 @@ export const heroes = [
       'Led the Tree Plantation Project',
       'Known for his kindness and dedication to Nawan',
     ],
-    image: '/src/assets/images/hero1.png',
+    image: hero1,
   },
 
   {
@@ -285,7 +388,7 @@ export const heroes = [
       'Associated with Jaba Farmhouse',
       'A respected member of the Nawan community',
     ],
-    image: '/src/assets/images/hero4.png',
+    image: hero4,
   },
 
   {
@@ -301,7 +404,7 @@ export const heroes = [
       'Supports sports and local players',
       'Respected as a cricket legend of Nawan',
     ],
-    image: '/src/assets/images/malik faisal .png',
+    image: malikFaisal,
   },
 
   {
@@ -317,7 +420,7 @@ export const heroes = [
       'Currently lives and works in Jawabad',
       'Known for his professional service and dedication',
     ],
-    image: '/src/assets/images/malik-akmal.png',
+    image: malikAkmal,
   },
 
   {
@@ -333,7 +436,7 @@ export const heroes = [
       'Represented Pakistan',
       'A source of pride and inspiration for young players of Nawan',
     ],
-    image: '/src/assets/images/vollyball1.png',
+    image: volleyball1,
   },
 
   {
@@ -350,7 +453,7 @@ export const heroes = [
       'DevOps and Cloud Engineer working in Islamabad',
       'Aspires to pursue international professional opportunities',
     ],
-    image: '/src/assets/images/hero6.png',
+    image: hero6,
   },
 
   {
@@ -366,7 +469,7 @@ export const heroes = [
       'Hardworking and academically ambitious',
       'Represents the educational achievements of Nawan',
     ],
-    image: '/src/assets/images/Pasted image (2).png',
+    image: pastedImage2,
   },
 
   {
@@ -382,9 +485,10 @@ export const heroes = [
       'Leader in the field of higher education',
       'Represents Nawan in the academic community',
     ],
-    image: '/src/assets/images/Malik-Amjad.png',
+    image: malikAmjad,
   },
-    {
+
+  {
     id: 'hero-10',
     name: 'Baba Sadiq Baloch',
     title: 'Respected Elder & Close Friend of Imran Khan',
@@ -396,9 +500,15 @@ export const heroes = [
       'Remembered as a close friend of Imran Khan',
       'An important personality in the local history of Nawan',
     ],
-    image: '/src/assets/images/image.png',
+    image: babaSadiq,
   },
 ]
+
+
+// ============================================================
+// TOURIST PLACES
+// ============================================================
+
 export const touristPlaces = [
   {
     id: 'Point-1',
@@ -408,7 +518,7 @@ export const touristPlaces = [
     whyVisit:
       'A beautiful place to see deer, horses, parrots, and different birds while enjoying the peaceful environment of Jaba Farmhouse.',
     location: 'Jaba Farmhouse',
-    image: '/src/assets/images/jabaform-house.png',
+    image: jabaFarmHouse,
   },
 
   {
@@ -419,7 +529,7 @@ export const touristPlaces = [
     whyVisit:
       'A welcoming place where people come together to enjoy food, conversations, celebrations, and community gatherings.',
     location: 'Jaba Farmhouse',
-    image: '/src/assets/images/jaba-form.png',
+    image: jabaForm,
   },
 
   {
@@ -430,7 +540,7 @@ export const touristPlaces = [
     whyVisit:
       'A unique night gathering place where friends and community members come together for conversations, discussions, and memorable evenings.',
     location: 'Jaba Farmhouse',
-    image: '/src/assets/images/marka11.png',
+    image: marka11,
   },
 
   {
@@ -441,6 +551,6 @@ export const touristPlaces = [
     whyVisit:
       'A beautiful natural destination where visitors can enjoy flowing water, mountain scenery, fresh air, and the peaceful beauty of nature.',
     location: 'Near Nawan',
-    image: '/src/assets/images/majoch.png',
+    image: majoch,
   },
 ]

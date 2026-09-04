@@ -2,12 +2,12 @@ import PageHero from '../components/PageHero.jsx'
 import Card from '../components/Card.jsx'
 import { markas } from '../data/siteData.js'
 
-const MARKETS_HERO_IMAGE = 'src/assets/images/marka1.png'
+import Marka_image from  '../assets/images/marka1.png'
 
 function Marka() {
   return (
     <>
-      <PageHero eyebrow="Trade & Community" title="Markets" image={MARKETS_HERO_IMAGE} />
+      <PageHero eyebrow="Trade & Community" title="Markets" image={Marka_image} />
 
       <section className="section">
         <div className="container">

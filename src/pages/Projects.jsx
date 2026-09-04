@@ -2,12 +2,12 @@ import PageHero from '../components/PageHero.jsx'
 import Card from '../components/Card.jsx'
 import { projects } from '../data/siteData.js'
 
-const PROJECTS_HERO_IMAGE = 'src/assets/images/beuti2.png'
+import project_image from '../assets/images/beuti2.png'
 
 function Projects() {
   return (
     <>
-      <PageHero eyebrow="Building Ahead" title="Projects" image={PROJECTS_HERO_IMAGE} />
+      <PageHero eyebrow="Building Ahead" title="Projects" image={project_image} />
 
       <section className="section">
         <div className="container">

@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 // To change the homepage background photo, replace the file at
 // src/assets/images/nawan-city-hero.jpg with your own image
 // (keep the same file name), or edit the path below.
-const HERO_IMAGE = 'src/assets/images/beauti1.png'
+import hero_image from  '../assets/images/beauti1.png'
 
 function Hero() {
   return (
     <section
       className="hero"
-      style={{ backgroundImage: `url(${HERO_IMAGE})` }}
+      style={{ backgroundImage: `url(${hero_image})` }}
     >
       <div className="hero__content">
         <p className="hero__eyebrow">Welcome to</p>

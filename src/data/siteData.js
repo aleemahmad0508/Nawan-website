@@ -53,7 +53,7 @@ import malikAkmal from '../assets/images/malik-akmal.png'
 import hero6 from '../assets/images/hero6.png'
 import pastedImage2 from '../assets/images/Pasted image (2).png'
 import malikAmjad from '../assets/images/Malik-Amjad.png'
-import babaSadiq from '../assets/images/image.png'
+import babaSadiq from '../assets/images/imran-khan-firend.png'
 
 // Tourist Places
 import jabaFarmHouse from '../assets/images/jabaform-house.png'

@@ -6,11 +6,12 @@ const navItems = [
   { label: 'History', to: '/history' },
   { label: 'Projects', to: '/projects' },
   { label: 'Events', to: '/events' },
-  { label: 'Players', to: '/players' },
-  { label: 'Grounds', to: '/grounds' },
+  { label: 'Sports', to: '/sports' },
   { label: 'Markas', to: '/marka' },
   { label: 'Heroes', to: '/heroes' },
   { label: 'Tourist Places', to: '/tourist-places' },
+  { label: 'About' , to : '/about'},
+  { label: 'Explore-Nawan' , to:"/explore"}
 ]
 
 function Navbar() {

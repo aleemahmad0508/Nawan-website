@@ -4,8 +4,6 @@ const footerLinks = [
   { label: 'Home', to: '/' },
   { label: 'History', to: '/history' },
   { label: 'Events', to: '/events' },
-  { label: 'Players', to: '/players' },
-  { label: 'Grounds', to: '/grounds' },
   { label: 'Heroes', to: '/heroes' },
   { label: 'Tourist Places', to: '/tourist-places' },
 ]
@@ -13,6 +11,8 @@ const footerLinks = [
 const moreLinks = [
   { label: 'Projects', to: '/projects' },
   { label: 'Marka', to: '/marka' },
+  { label: 'Explore-Nawan', to:'/explore'},
+  { label: 'About', to:'/about'}
 ]
 
 function Footer() {

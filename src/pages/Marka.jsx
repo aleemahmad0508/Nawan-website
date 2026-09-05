@@ -7,7 +7,7 @@ import Marka_image from  '../assets/images/marka1.png'
 function Marka() {
   return (
     <>
-      <PageHero eyebrow="Trade & Community" title="Markets" image={Marka_image} />
+      <PageHero eyebrow="Trade & Community" title="Markay" image={Marka_image} />
 
       <section className="section">
         <div className="container">

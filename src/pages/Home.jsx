@@ -2,22 +2,33 @@ import Hero from '../components/Hero.jsx'
 import ExploreCard from '../components/ExploreCard.jsx'
 import EventCard from '../components/EventCard.jsx'
 import PlayerCard from '../components/PlayerCard.jsx'
+
 import { Link } from 'react-router-dom'
 import {
   exploreLinks,
   events,
-  cricketPlayers,
+  volleyballPlayers,
   socialLinks,
 } from '../data/siteData.js'
 
+// 1. Import both Facebook and Instagram icons
+import { FaFacebook } from 'react-icons/fa'; 
+
+// 2. Create the dictionary config mapping names to components and colors
+const iconDictionary = {
+  facebook: { Icon: FaFacebook, color: '#1877F2' },
+   // Instagram brand color
+};
+
 function Home() {
   const featuredEvents = events.slice(0, 3)
-  const featuredPlayers = cricketPlayers.slice(0, 3)
+  const featuredPlayers = volleyballPlayers.slice(0, 3)
 
   return (
     <>
       <Hero />
 
+      {/* ... keeping your village, events, players, and discover sections exactly as they are ... */}
       <section className="section">
         <div className="container">
           <div className="section-head">
@@ -93,25 +104,38 @@ function Home() {
         </div>
       </section>
 
+      {/* Updated Social Section */}
       <section className="section--tight">
         <div className="container">
           <div className="section-head">
             <p className="kicker">Stay connected</p>
-            <h2>Follow Apna Nawan (Asif Awan)</h2>
+            <h2>Follow Apna Nawan</h2>
           </div>
           <div className="social-strip">
-            {socialLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.url}
-                target="_blank"
-                rel="noreferrer"
-                className="social-chip"
-              >
-                <strong>{link.name}</strong>
-                <span>{link.handle}</span>
-              </a>
-            ))}
+            {socialLinks.map((link, index) => {
+              // Look up config based on lowercase key ('facebook' or 'instagram')
+              const platformConfig = iconDictionary[link.name.toLowerCase()];
+              
+              // Fallback if an icon isn't found in your configuration map
+              const IconComponent = platformConfig ? platformConfig.Icon : FaFacebook;
+              const iconColor = platformConfig ? platformConfig.color : "#1877F2";
+
+              return (
+                <a
+                  // Use index mixed with name for safe key since you have multiple Facebook elements
+                  key={`${link.name}-${index}`} 
+                  href={link.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="social-chip"
+                >
+                  {/* Render the dynamically resolved icon structure */}
+                  <IconComponent size={32} color={iconColor} />
+                  <strong>{link.name}</strong>
+                  <span>{link.handle}</span>
+                </a>
+              );
+            })}
           </div>
         </div>
       </section>
